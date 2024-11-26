@@ -11,7 +11,7 @@ import Togglebutton from "./components/task1/Togglebutton";
 function App() {
   return (
     <>
-      <h2>Task 1</h2>
+      <h2>Task1</h2>
       <SimpleText />
       <ArrayRecord />
       <ShowHide />
