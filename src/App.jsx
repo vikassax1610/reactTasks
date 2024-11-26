@@ -11,12 +11,12 @@ import Togglebutton from "./components/task1/Togglebutton";
 function App() {
   return (
     <>
-      <Togglebutton />
       <h2>Task 1</h2>
       <SimpleText />
       <ArrayRecord />
       <ShowHide />
-      {/* <SumoftwoNum /> */}
+      <Togglebutton />
+      <SumoftwoNum />
       <TwowayData />
       <DynamicChildPros />
       <h2>Task2</h2>
