@@ -7,15 +7,17 @@ import SumoftwoNum from "./components/task1/SumoftwoNum";
 import Counter from "./components/task2/Counter";
 import DataFilter from "./components/task3/DataFilter";
 import DynamicChildPros from "./components/task1/DynamicChildprops";
+import Togglebutton from "./components/task1/Togglebutton";
 function App() {
   return (
     <>
+      <Togglebutton />
       <h2>Task 1</h2>
       <SimpleText />
       <ArrayRecord />
       <ShowHide />
+      {/* <SumoftwoNum /> */}
       <TwowayData />
-      <SumoftwoNum />
       <DynamicChildPros />
       <h2>Task2</h2>
       <Counter />
